@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "coco"
+    }
+  },
+  "defaultProject": "coco",
+  "cli": {
+    "analytics": "1c8df679-c5f1-496b-a7f3-d2fe4473a2af"
+  }
 }
