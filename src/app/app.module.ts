@@ -14,8 +14,6 @@ import { LoginComponent } from './login/login.component';
 import { GiftComponent } from './gift/gift.component';
 import { JobsComponent } from './jobs/jobs.component';
 import { ContactusComponent } from './contactus/contactus.component';
-import { InstaComponent } from './insta/insta.component';
-import { FbComponent } from './fb/fb.component';
 import { SubfooterComponent } from './subfooter/subfooter.component';
 import { HomeComponent } from './home/home.component';
 
@@ -33,8 +31,6 @@ import { HomeComponent } from './home/home.component';
     GiftComponent,
     JobsComponent,
     ContactusComponent,
-    InstaComponent,
-    FbComponent,
     SubfooterComponent,
     HomeComponent
   ],
