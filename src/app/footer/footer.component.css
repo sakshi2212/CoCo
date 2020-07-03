@@ -1,7 +1,13 @@
+body{
+  height:10vh;
+  background-color:#8B4513;
+}
+
+
 .mainfooter {
    width: 100%;
+   background-color:#8B4513;
    overflow: hidden;
-   background-color: #333;
  }
  
  .mainfooter a {
@@ -15,6 +21,6 @@
  
 
  .mainfooter a:hover{
-   background-color: red;
+   background-color: beige;
+   color:#8B4513;
  }
- 
