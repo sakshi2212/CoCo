@@ -2,17 +2,22 @@ body{
     background-image: url("../../assets/images/wallpaper/11.jpg"); 
 }
 
-.strip{
-    background-image: linear-gradient(to bottom right, rgb(180, 121, 44),#8B4513);
-    width:100%;
-    text-align:center;
-    font-size:1.2em;
-    font-weight: bold;
-    font-family: "Brandon Grotesque Bold";
-    vertical-align: middle;
-    height:auto ;	
-    color:white;
+div.container {
+  height: 5em;
+  background-image: linear-gradient(to bottom right, rgb(180, 121, 44),#8B4513);
+  position: relative 
 }
+div.container h2 {
+  margin: 0;
+  position: absolute;
+  color:beige;
+  font-style: italic;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+ }
+
 
 .flex-container {
     display: flex;
