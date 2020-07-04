@@ -1,0 +1,31 @@
+body{
+    background-image: url("../../assets/images/wallpaper/11.jpg");
+}
+
+.maindiv mat-card{
+    padding: 0px;
+}
+
+.maindiv mat-form-field{
+    padding: 0px;
+    
+}.maindiv mat-label{
+    padding: 0px;
+}
+
+
+
+.loginform{
+    padding: 20px;
+}
+
+.bgimg {
+    display:block;
+    width:100%;
+    height:100%;
+    background: src="logo.png" no-repeat center center fixed;
+  }
+
+.mat-accent {
+    background-color: #c99053;
+}

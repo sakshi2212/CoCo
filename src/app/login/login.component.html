@@ -1,1 +1,47 @@
-<p>login works!</p>
+<body class="mat-typography">
+    <div class=""   fxLayout="row" fxLayoutAlign="start center" fxFlexFill class="maindiv" style="height: fit-content; width:fit-content; padding:50px" >
+      <mat-card fxFlex="50" style="background-image:url(../../assets/images/home/cocho.gif); background-size:200px 200px ; background-position:'center';background-repeat:no-repeat ;padding:20px">
+      <mat-toolbar color="accent" fxLayoutAlign="center center">Login</mat-toolbar>  
+        <form fxLayoutAlign="stretch" fxLayout="column" class="loginform">
+          <mat-form-field>
+            <mat-label>Username</mat-label>
+            <input matInput type="text" placeholder="Username" [(ngModel)]="username" name="username">
+          </mat-form-field>
+        
+          <mat-form-field>
+              <mat-label>Password</mat-label>
+              <input matInput type="password" placeholder="Password" >
+            </mat-form-field>
+            <button mat-raised-button color="accent" type="submit">Login</button>
+        </form>
+  </mat-card>
+  <mat-card fxFlex="5"></mat-card>
+  <mat-card fxFlex="50"  style="background-image:url(../../assets/images/home/cocho.gif); background-size:200px 200px ; background-position:'center';background-repeat:no-repeat ;padding:20px">
+    <mat-toolbar color="accent" fxLayoutAlign="center center">Sign In</mat-toolbar>  
+    <form fxLayoutAlign="stretch" fxLayout="column" class="loginform">
+    <mat-form-field>
+      <mat-label>Username</mat-label>
+      <input matInput type="text" placeholder="Username" [(ngModel)]="username" name="username">
+    </mat-form-field>
+  
+    <mat-form-field>
+      <mat-label>Email-ID</mat-label>
+      <input matInput type="text" placeholder="Username" [(ngModel)]="username" name="username">
+    </mat-form-field>
+  
+    <mat-form-field>
+        <mat-label>Password</mat-label>
+        <input matInput type="password" placeholder="Password" >
+    </mat-form-field>
+    
+      <mat-form-field>
+        <mat-label>Re-enter Password</mat-label>
+        <input matInput type="password" placeholder="Password" >
+      </mat-form-field>
+      <button mat-raised-button color="accent" type="submit">Sign In</button>
+  </form>
+  </mat-card>
+  </div>
+  </body>
+  
+  
