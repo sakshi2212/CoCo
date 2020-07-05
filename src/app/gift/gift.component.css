@@ -1,0 +1,44 @@
+body{
+    background-image: url("../../assets/images/wallpaper/11.jpg"); 
+}
+
+.button {
+  background-color: #8B4513;
+  border-radius: 5%;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 0.8em;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button:hover {opacity: 1}
+
+
+
+.flex-container {
+    display: flex;
+    height: auto;
+    /* flex-wrap: wrap; */
+    align-content: center;
+    align-items: center;
+    padding-left:5cm;
+    /* width: 60%; */
+  }
+  
+  .flex-container > div {
+    width: 50%;
+    color:coral;
+    font-family: "Brandon Grotesque Bold";
+    text-align: center;
+    font-size: 30px;
+  }
+
+  @font-face {font-family: "Brandon Grotesque Bold";
+     src: url("//db.onlinewebfonts.com/t/6cec834e2e8f2e4206567ed75e1281d4.woff") format("woff"), 
+     url("//db.onlinewebfonts.com/t/6cec834e2e8f2e4206567ed75e1281d4.svg#Brandon Grotesque Bold") format("svg"); 
+}

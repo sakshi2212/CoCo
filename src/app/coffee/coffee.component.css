@@ -35,3 +35,23 @@
   box-shadow: 5px 10px black;
   
   }
+  .bcolor{
+    color: white; 
+    background-color: black;
+ }
+
+  div.container {
+    height: 5em;
+    background-image: linear-gradient(to bottom right, rgb(180, 121, 44),#8B4513);
+    position: relative 
+  }
+  div.container h2 {
+    margin: 0;
+    position: absolute;
+    color:beige;
+    font-style: italic;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+   }

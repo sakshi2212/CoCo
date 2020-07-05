@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import {MatDialog} from '@angular/material/dialog';
 import { Dialog6Component } from '../dialog6/dialog6.component';
 import { Dialog7Component } from '../dialog7/dialog7.component';
@@ -11,7 +11,7 @@ import { Dialog10Component } from '../dialog10/dialog10.component';
   templateUrl: './chocolate.component.html',
   styleUrls: ['./chocolate.component.css']
 })
-export class ChocolateComponent implements OnInit {
+export class ChocolateComponent{
 
   name1="Chocolate Bars"
   price1=200;
@@ -24,6 +24,8 @@ export class ChocolateComponent implements OnInit {
   name5="Namaomi Bars"
   price5=350;
 
+  @Output() messageEvent = new EventEmitter<string>();
+  @Output() messageEvent2 = new EventEmitter<number>();
 
 
 
@@ -44,8 +46,26 @@ export class ChocolateComponent implements OnInit {
   openDialog5(){
     this.dialog.open(Dialog10Component);
   }
-
-  ngOnInit(): void {
+   
+  senditem1(){
+    this.messageEvent.emit(this.name1)
+    this.messageEvent2.emit(this.price1)
   }
 
+  senditem2(){
+    this.messageEvent.emit(this.name2)
+    this.messageEvent2.emit(this.price2)
+  }
+  senditem3(){
+    this.messageEvent.emit(this.name3)
+    this.messageEvent2.emit(this.price3)
+  }
+  senditem4(){
+    this.messageEvent.emit(this.name4)
+    this.messageEvent2.emit(this.price4)
+  }
+  senditem5(){
+    this.messageEvent.emit(this.name5)
+    this.messageEvent2.emit(this.price4)
+  }
 }

@@ -1,13 +1,29 @@
 .a{
-
-  
     height: 280px;
     width: 60%; 
      justify-content: center;
     align-items: center; 
     border-radius: 25px;
-   
 }
+.bcolor{
+   color: white; 
+   background-color: black;
+}
+div.container {
+  height: 5em;
+  background-image: linear-gradient(to bottom right, rgb(180, 121, 44),#8B4513);
+  position: relative 
+}
+div.container h2 {
+  margin: 0;
+  position: absolute;
+  color:beige;
+  font-style: italic;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+ }
 
 /* .b{
     margin-left: auto;
@@ -60,12 +76,8 @@
   box-shadow: 5px 10px black;
   
   }
+  
   body{
     background-image: url('../../assets/img/bg2.jpg');
-    
-
   }
  
-  .mat-accent {
-    background-color: #1b0e00;
-}

@@ -11,8 +11,8 @@
           <mat-form-field>
               <mat-label>Password</mat-label>
               <input matInput type="password" placeholder="Password" >
-          </mat-form-field>
-            <button mat-raised-button color="accent" type="submit">Login</button>
+            </mat-form-field>
+            <button mat-raised-button color="accent" type="submit" routerLink="/checkout">Login</button>
         </form>
   </mat-card>
   <mat-card fxFlex="5"></mat-card>
@@ -21,12 +21,12 @@
     <form fxLayoutAlign="stretch" fxLayout="column" class="loginform">
     <mat-form-field>
       <mat-label>Username</mat-label>
-      <input matInput type="text" placeholder="Username" [(ngModel)]="username" name="username">
+      <input matInput type="text" placeholder="Username" [(ngModel)]="newuser" name="username">
     </mat-form-field>
   
     <mat-form-field>
       <mat-label>Email-ID</mat-label>
-      <input matInput type="text" placeholder="Username" [(ngModel)]="username" name="username">
+      <input matInput type="text" placeholder="Username" [(ngModel)]="email" name="username">
     </mat-form-field>
   
     <mat-form-field>
@@ -38,7 +38,7 @@
         <mat-label>Re-enter Password</mat-label>
         <input matInput type="password" placeholder="Password" >
       </mat-form-field>
-      <button mat-raised-button color="accent" type="submit">Sign In</button>
+      <button mat-raised-button color="accent" type="submit" routerLink="/checkout">Sign In</button>
   </form>
   </mat-card>
   </div>

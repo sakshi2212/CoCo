@@ -1,1 +1,13 @@
-<p>online works!</p>
+
+<app-chocolate (messageEvent)="receiveMessage($event)" (messageEvent2)="receiveMessage2($event)"></app-chocolate>
+<app-coffee (messageEvent)="receiveMessage($event)" (messageEvent2)="receiveMessage2($event)"></app-coffee>
+<mat-card>
+    <mat-toolbar style="background-color: #8B4513;color:beige; font-size:larger " class="mat-shadow" fxLayoutAlign="center center ">Shopping Cart</mat-toolbar>  
+    <h3> Products : {{message}} </h3>
+    <hr>
+    <br>
+    <h4>Cart Total : {{price}}</h4>
+    <hr>
+    <br>
+    <button mat-raised-button color="accent" type="submit" routerLink="/login">Check Out</button>
+</mat-card>

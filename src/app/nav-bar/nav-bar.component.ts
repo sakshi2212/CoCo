@@ -50,6 +50,12 @@ export class NavBarComponent implements OnInit {
       else if (this.route === '/contactus'){
         this.route = 'Let\'s Connect';
       }
+      else if (this.route === '/checkout'){
+        this.route = 'Order Placed';
+      }
+      else if (this.route === '/response'){
+        this.route = 'Thank for your Response';
+      }
     });
   }
   ngOnInit() {

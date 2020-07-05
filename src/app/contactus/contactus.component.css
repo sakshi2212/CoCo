@@ -2,24 +2,36 @@ body{
     background-image: url("../../assets/images/wallpaper/11.jpg");
 }
 
-.flex-container {
-    display: flex;
-    height: auto;
-    flex-wrap: wrap;
-    align-content: space-between;
-    z-index:1;
-  }
-  
-  .flex-container > div {
-    width: 50%;
-    margin-left:25%;
-    margin-right:25%;
-    font-family: "Brandon Grotesque Bold";
-    text-align: center;
-    font-size: 30px;
+div.container {
+  height: 5em;
+  background-image: linear-gradient(to bottom right, rgb(180, 121, 44),#8B4513);
+  position: relative 
+}
+div.container h2 {
+  margin: 0;
+  position: absolute;
+  color:beige;
+  font-style: italic;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+ }
 
-  }
+ .flex-container {
+  display: flex;
+  height: auto;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
 
+.flex-container > div {
+  width: 50%;
+  color:coral;
+  font-family: "Brandon Grotesque Bold";
+  text-align: center;
+  font-size: 30px;
+}
   .button {
     background-color: #f4511e;
     border-radius: 5%;

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 
 
 @Component({
@@ -6,11 +6,16 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.css']
 })
-export class LoginComponent implements OnInit {
+export class LoginComponent{
+
+  @Output() messageEvent = new EventEmitter<string>();
 
   public username: string;
+  public newuser : string;
+  public email  :string;
   constructor() { }
-  ngOnInit(): void {
+  
+  senditem1(){
+    this.messageEvent.emit(this.username)
   }
-
 }

@@ -36,7 +36,8 @@ import { Dialog7Component } from './dialog7/dialog7.component';
 import { Dialog8Component } from './dialog8/dialog8.component';
 import { Dialog9Component } from './dialog9/dialog9.component';
 import { Dialog10Component } from './dialog10/dialog10.component';
-
+import { CheckoutComponent } from './checkout/checkout.component';
+import { ResponseComponent } from './response/response.component';
 
 @NgModule({
   declarations: [
@@ -63,7 +64,9 @@ import { Dialog10Component } from './dialog10/dialog10.component';
     Dialog7Component,
     Dialog8Component,
     Dialog9Component,
-    Dialog10Component
+    Dialog10Component,
+    CheckoutComponent,
+    ResponseComponent,
   ],
   imports: [
     BrowserModule,

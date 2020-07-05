@@ -10,6 +10,8 @@ import { JobsComponent } from './jobs/jobs.component';
 import { LoginComponent } from './login/login.component';
 import { ContactusComponent } from './contactus/contactus.component';
 import { HomeComponent } from './home/home.component';
+import { CheckoutComponent } from './checkout/checkout.component';
+import { ResponseComponent } from './response/response.component';
 
 
 const routes: Routes = [
@@ -24,6 +26,8 @@ const routes: Routes = [
   {path: 'gift', component: GiftComponent },
   {path: 'jobs', component: JobsComponent },
   {path: 'contactus', component: ContactusComponent },
+  {path: 'checkout' , component : CheckoutComponent},
+  {path: 'response' , component : ResponseComponent}
 ];
 
 @NgModule({
